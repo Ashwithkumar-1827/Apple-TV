@@ -1,0 +1,22 @@
+tools/venv/
+tools/adbkey/
+__pycache__/
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
+launcher/local.properties
+
+# Device backups, session screenshots, and temporary work stay local (never committed)
+backup/
+shots/
+work/
+
+# User screensaver photo must stay local and never be pushed to GitHub
+screensaver.*
+wallpaper.jpg
+
+.DS_Store
+*.apk
+*.aab
+launcher/hs_err_pid*.log
+launcher/replay_pid*.log
